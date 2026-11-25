@@ -3,7 +3,7 @@ name: Daily Duplus QT
 on:
   schedule:
     # 한국시간(KST) 매일 오전 5:00 = UTC 20:00
-    - cron: "0 20 * * *"
+    - cron: "17 18 * * *"
   workflow_dispatch:
 
 permissions:
